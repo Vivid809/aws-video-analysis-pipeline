@@ -8,7 +8,7 @@ Author: **Bismillah Sultani and Mutahher Naseer**
 **test folder** contains the code for testing the web application via generating synthetic requests.
 
 ## 🧭 Architecture
-![System architecture](./Architecture%20diagram.png)
+![System architecture](./Architecture%20Diagram.png)
 
 ## 📡 SQS + Auto Scaling (Network flow)
 ![SQS flow with ASG](./Network%20Diagram.png)
