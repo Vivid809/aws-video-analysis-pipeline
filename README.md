@@ -44,7 +44,8 @@ SQS_QUEUE_URL=your-queue-url
 ```
 
 ###  🧠 4. Start local development
-```bash npm start --prefix client
+```bash npm
+start --prefix client
 npm start --prefix server
 npm start --prefix sqs
 ```
