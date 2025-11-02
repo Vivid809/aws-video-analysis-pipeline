@@ -97,6 +97,20 @@ Scaling was successfully triggered by running a Python script that bulk-uploaded
 
 ---
 
+## 🗂️ Repository Structure
+
+The repository is organized into modular components for clarity and scalability:
+
+aws-video-analysis-pipeline/
+├── client/ # React front-end for uploads, graphs, and search
+├── server/ # Node.js backend (presigned S3 URLs, Redis de-dup, API)
+├── sqs/ # Worker logic (polls SQS, runs ffmpeg, calls Vision API)
+├── testing/ # Scripts to generate synthetic load and trigger scaling
+├── Architecture Diagram.png # System architecture visualization
+├── Network Diagram.png # SQS + Auto Scaling workflow diagram
+├── .gitignore
+└── README.md
+
 ## 🧠 Future Enhancements
 - Integrate **Face Detection** for emotion and expression analysis.  
 - Implement **facial recognition** or **object tracking** across frames.  
