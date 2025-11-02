@@ -24,20 +24,20 @@ const apiKey = "AIzaSyDIvVTx_Jrbf3utLtqiXt0zjZf_54ik1sU";
 [901444280953_CAB432-STUDENT]
 aws_access_key_id=ASIA5DYSEEJ4754RNK55
 aws_secret_access_key=uZ4+keTpEepPhQ/Kgqduo3ru8Bmk3Ck/0ZRR/XrE
-aws_session_token=IQoJb3JpZ2luX2VjEKL//////////wEaDmFwLXNvdXRoZWFzdC0yIkcwRQIgM+RihE7zuLuf88uTJ4Jiq8BHjUTh0Bj8q4dEtWRKiLECIQDvem1am3vFw7sFBLVCsQNGqD2LhqE263fA9XgQKAmBSyquAwjL//////////8BEAMaDDkwMTQ0NDI4MDk1MyIMPArGWEuTVA3nOG7DKoIDfy7588sP0hhpRMo7gWIHWKqMWxiLqz6uSE5qQiVf78aqmkupKf2A+Wo+9Cb8T4KjuguyZHKZ7J1vpXtowKdUsJTDx9YuYu9rm/rVd7mq4mu28rnnRq/fHRxNQxQH7GkTpJyrEmccJO5afUNZDpYNktT25a1c8N60sNOQQ25haJtnx01kfjbVkPiG7YuiG7/k3ulQqHS0m67X5BuLItrE1IYSC/VRl25ZuDQrOrVRKJivdoLnjI5+XBCW1dmNhA2MzqO77tKkvZmQi1In/y8vV3m4wIxRpDx+19h8HNDyIN9qO8ZYEO/svAsIZARF0thJNlEkOJ/O1S4CHdjZe6vrwb/b+HUZI/E47hZRx/K9/XGILQFyqBlYZBFNto3p8SZebuotrox8I28COsLaX/wCizpPjp7TIpKpIj7LhJaloQ8aGbZgsfDYhM/wQ+nW7d4OI1qlD3Wyh+tScjFUzOwWm86IWmKmprIIgG4xsEQzX45fD4Ch1h0aIlRrIZZg1rXCEPQw4Jn8qQY6pgG4qsa/XVyZ+tprM7T5WfYcrprvx7XrPZp9Z41l5xtjVWyKCNQKY705C5snEShf8t95H1cPje4rCTXu6BtsSnXEsBHtGRun+t9xAs+Tyuy1+GmlL+Sb2RnhWtkEdWdkjG42sA1r+jTS1hxdpnhDbUpO8HCiYC0R+m55BUhJSvL0yhjPav9+YVJo/GKyZPdfcKF5CZ8oXHUY2XQXnEYYOwHU1Kok+BGJ
+aws_session_token= process.env.AWS_SESSION_TOKEN
 
 AWS.config.update({
   region: 'ap-southeast-2', // THESE KEYS are on my ec2 that already have perms for automatic retrieval.
-  accessKeyId: 'ASIA5DYSEEJ4754RNK55',
-  secretAccessKey: 'uZ4+keTpEepPhQ/Kgqduo3ru8Bmk3Ck/0ZRR/XrE'
+  accessKeyId: ' process.env.AWS_ACCESS_KEY_ID',
+  secretAccessKey: 'process.env.AWS_SECRET_ACCESS_KEY'
 });*/
 
 
  AWS.config.update({
   
-   accessKeyId: 'ASIA5DYSEEJ4754RNK55',
+   accessKeyId: 'process.env.AWS_ACCESS_KEY_ID',
    secretAccessKey:'uZ4+keTpEepPhQ/Kgqduo3ru8Bmk3Ck/0ZRR/XrE' ,
-   sessionToken: 'IQoJb3JpZ2luX2VjEKL//////////wEaDmFwLXNvdXRoZWFzdC0yIkcwRQIgM+RihE7zuLuf88uTJ4Jiq8BHjUTh0Bj8q4dEtWRKiLECIQDvem1am3vFw7sFBLVCsQNGqD2LhqE263fA9XgQKAmBSyquAwjL//////////8BEAMaDDkwMTQ0NDI4MDk1MyIMPArGWEuTVA3nOG7DKoIDfy7588sP0hhpRMo7gWIHWKqMWxiLqz6uSE5qQiVf78aqmkupKf2A+Wo+9Cb8T4KjuguyZHKZ7J1vpXtowKdUsJTDx9YuYu9rm/rVd7mq4mu28rnnRq/fHRxNQxQH7GkTpJyrEmccJO5afUNZDpYNktT25a1c8N60sNOQQ25haJtnx01kfjbVkPiG7YuiG7/k3ulQqHS0m67X5BuLItrE1IYSC/VRl25ZuDQrOrVRKJivdoLnjI5+XBCW1dmNhA2MzqO77tKkvZmQi1In/y8vV3m4wIxRpDx+19h8HNDyIN9qO8ZYEO/svAsIZARF0thJNlEkOJ/O1S4CHdjZe6vrwb/b+HUZI/E47hZRx/K9/XGILQFyqBlYZBFNto3p8SZebuotrox8I28COsLaX/wCizpPjp7TIpKpIj7LhJaloQ8aGbZgsfDYhM/wQ+nW7d4OI1qlD3Wyh+tScjFUzOwWm86IWmKmprIIgG4xsEQzX45fD4Ch1h0aIlRrIZZg1rXCEPQw4Jn8qQY6pgG4qsa/XVyZ+tprM7T5WfYcrprvx7XrPZp9Z41l5xtjVWyKCNQKY705C5snEShf8t95H1cPje4rCTXu6BtsSnXEsBHtGRun+t9xAs+Tyuy1+GmlL+Sb2RnhWtkEdWdkjG42sA1r+jTS1hxdpnhDbUpO8HCiYC0R+m55BUhJSvL0yhjPav9+YVJo/GKyZPdfcKF5CZ8oXHUY2XQXnEYYOwHU1Kok+BGJ',
+   sessionToken: 'process.env.AWS_SESSION_TOKEN',
   region: "ap-southeast-2",
  });
 
