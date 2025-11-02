@@ -97,8 +97,8 @@ Each new upload to S3 triggers an SQS message.
 <td align="center"><b>🔍 Search & Analytics (Vision API)</b></td>
 </tr>
 <tr>
-<td><img src="preview_upload.png" width="380"></td>
-<td><img src="preview_search.png" width="380"></td>
+<td><img src="preview_upload.png.png" width="380"></td>
+<td><img src="preview_search.png.png" width="380"></td>
 </tr>
 
 <tr>
@@ -107,7 +107,7 @@ Each new upload to S3 triggers an SQS message.
 </tr>
 <tr>
 <td><img src="preview_dedup.png.png" width="380"></td>
-<td><img src="preview_dedup.png.png" width="380"></td>
+<td><img src="preview_scaling.png.png" width="380"></td>
 </tr>
 </table>
 
