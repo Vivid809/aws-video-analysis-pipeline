@@ -7,6 +7,11 @@
 This project was developed for **CAB432: Cloud Computing** at QUT (Group 109) by **Mutahher Naseer** and **Bismillah Sultani**.  
 The system bridges the gap between raw video data and meaningful analytics by automating video processing, frame extraction, and object detection using cloud-based architecture.
 
+> ⚠️ **Note:**  
+> This project was originally deployed on AWS using EC2 Auto Scaling Groups, S3, SQS, and Redis (ElastiCache).  
+> The full architecture and code remain valid and deployable, but the live instances have since been **decommissioned** to reduce cost.  
+> This repository now serves as a **technical showcase** and **visual portfolio** demonstrating scalable cloud architecture, automation, and AWS integration.
+
 Users can:
 - Upload `.mp4` videos to an S3 bucket via a **React** web interface.  
 - Automatically trigger analysis jobs through **SQS** and **Auto Scaling Groups (ASG)**.  
