@@ -13,6 +13,10 @@
 This project was developed for **CAB432: Cloud Computing** by **Mutahher Naseer** and **Bismillah Sultani**.  
 The system bridges the gap between raw video data and meaningful analytics by automating video processing, frame extraction, and object detection using cloud-based architecture.
 
+🔒 **Security Notice**  
+All AWS credentials, API keys, and access tokens used during the original deployment have been **revoked and are no longer active**.  
+This repository is provided solely for **educational and portfolio demonstration purposes** — no live services or secrets are exposed.
+
 ## 🚀 Running the Project
 
 > ⚠️ **Note:**  
