@@ -97,8 +97,8 @@ Each new upload to S3 triggers an SQS message.
 <td align="center"><b>🔍 Search & Analytics (Vision API)</b></td>
 </tr>
 <tr>
-<td><img src="./demo-images/preview_upload.png" width="380"></td>
-<td><img src="./demo-images/preview_search.png" width="380"></td>
+<td><img src="preview_upload.png" width="380"></td>
+<td><img src="preview_search.png" width="380"></td>
 </tr>
 
 <tr>
@@ -106,8 +106,8 @@ Each new upload to S3 triggers an SQS message.
 <td align="center"><b>📊 Auto-Scaling Metrics (CloudWatch)</b></td>
 </tr>
 <tr>
-<td><img src="./demo-images/preview_dedup.png.png" width="380"></td>
-<td><img src="./demo-images/preview_scaling.png.png" width="380"></td>
+<td><img src="preview_dedup.png.png" width="380"></td>
+<td><img src="preview_dedup.png.png" width="380"></td>
 </tr>
 </table>
 
