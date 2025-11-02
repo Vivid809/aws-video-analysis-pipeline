@@ -26,14 +26,14 @@ git clone https://github.com/Vivid809/aws-video-analysis-pipeline.git
 cd aws-video-analysis-pipeline
 ```
 
-###    2. Install Dependencies
+###  💻 2. Install Dependencies
 ```bash
 npm install --prefix client
 npm install --prefix server
 npm install --prefix sqs
 ```
 
-###   3. Configure environment tables
+###  ⚙️ 3. Configure environment tables
 ```bash
 AWS_ACCESS_KEY_ID=your_key
 AWS_SECRET_ACCESS_KEY=your_secret
@@ -43,7 +43,7 @@ REDIS_HOST=your-redis-endpoint
 SQS_QUEUE_URL=your-queue-url
 ```
 
-###   4. Start local development
+###  🧠 4. Start local development
 ```bash npm start --prefix client
 npm start --prefix server
 npm start --prefix sqs
