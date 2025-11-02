@@ -86,6 +86,32 @@ Each new upload to S3 triggers an SQS message.
 - When thresholds are breached, the **Auto Scaling Group** launches new EC2 instances.  
 - As the queue drains, instances automatically scale down to reduce cost.
 
+## 💡 Project Preview
+
+> The EC2 instances and AWS services for this project have been discontinued.  
+> The screenshots below demonstrate the local and cloud workflow from the original deployment.
+
+<table>
+<tr>
+<td align="center"><b>🎥 Upload Interface</b></td>
+<td align="center"><b>🔍 Search & Analytics (Vision API)</b></td>
+</tr>
+<tr>
+<td><img src="./demo-images/preview_upload.png" width="380"></td>
+<td><img src="./demo-images/preview_search.png" width="380"></td>
+</tr>
+
+<tr>
+<td align="center"><b>♻️ Duplicate Detection (Redis Cache)</b></td>
+<td align="center"><b>📊 Auto-Scaling Metrics (CloudWatch)</b></td>
+</tr>
+<tr>
+<td><img src="./demo-images/preview_dedup.png" width="380"></td>
+<td><img src="./demo-images/preview_scaling.png" width="380"></td>
+</tr>
+</table>
+
+
 ---
 
 ## ⚙️ Technical Components
@@ -115,6 +141,7 @@ Load generation and queue monitoring were validated using CloudWatch metrics.
 Scaling was successfully triggered by running a Python script that bulk-uploaded test videos, simulating heavy queue activity.
 
 ---
+
 
 ## 🧩 Services & Libraries
 - **AWS SDK** – S3, SQS, EC2, CloudWatch, IAM integration  
