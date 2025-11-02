@@ -6,3 +6,10 @@ Author: **Bismillah Sultani and Mutahher Naseer**
 **server folder** contains the server side code for the web application.
 **SQS folder** contains the code for processing the SQS messages.
 **test folder** contains the code for testing the web application via generating synthetic requests.
+
+## 🧭 Architecture
+![System architecture](./Architecture%20diagram.png)
+
+## 📡 SQS + Auto Scaling (Network flow)
+![SQS flow with ASG](./Network%20Diagram.png)
+
