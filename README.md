@@ -10,7 +10,7 @@
 ---
 
 ## 📘 Overview
-This project was developed for **CAB432: Cloud Computing** at QUT (Group 109) by **Mutahher Naseer** and **Bismillah Sultani**.  
+This project was developed for **CAB432: Cloud Computing** by **Mutahher Naseer** and **Bismillah Sultani**.  
 The system bridges the gap between raw video data and meaningful analytics by automating video processing, frame extraction, and object detection using cloud-based architecture.
 
 ## 🚀 Running the Project
