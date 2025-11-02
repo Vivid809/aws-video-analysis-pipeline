@@ -1,6 +1,6 @@
 # CAB432 Cloud Computing Assignment 2
 
-Author: **Bismillah Sultani and Mutahher Naseer **
+Author: **Bismillah Sultani and Mutahher Naseer**
 
 **client folder** contains the client side code for the web application.
 **server folder** contains the server side code for the web application.
