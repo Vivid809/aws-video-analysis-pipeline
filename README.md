@@ -7,10 +7,48 @@
 This project was developed for **CAB432: Cloud Computing** at QUT (Group 109) by **Mutahher Naseer** and **Bismillah Sultani**.  
 The system bridges the gap between raw video data and meaningful analytics by automating video processing, frame extraction, and object detection using cloud-based architecture.
 
+## 🚀 Running the Project
+
 > ⚠️ **Note:**  
-> This project was originally deployed on AWS using EC2 Auto Scaling Groups, S3, SQS, and Redis (ElastiCache).  
-> The full architecture and code remain valid and deployable, but the live instances have since been **decommissioned** to reduce cost.  
-> This repository now serves as a **technical showcase** and **visual portfolio** demonstrating scalable cloud architecture, automation, and AWS integration.
+> This project was originally deployed using AWS EC2 instances, S3, SQS, and Redis (ElastiCache).  
+> The cloud resources have since been discontinued — the instructions below describe the original setup for reference.
+
+### 🧩 Prerequisites
+- Node.js (v14+)
+- AWS CLI configured with valid credentials
+- Access to AWS services: **S3**, **SQS**, **EC2**, **ElastiCache (Redis)**, and **CloudWatch**
+
+---
+
+### 🏗️ 1. Clone the repository
+```bash
+git clone https://github.com/Vivid809/aws-video-analysis-pipeline.git
+cd aws-video-analysis-pipeline
+```
+
+###    2. Install Dependencies
+```bash
+npm install --prefix client
+npm install --prefix server
+npm install --prefix sqs
+```
+
+###   3. Configure environment tables
+```bash
+AWS_ACCESS_KEY_ID=your_key
+AWS_SECRET_ACCESS_KEY=your_secret
+AWS_REGION=ap-southeast-2
+S3_BUCKET=your-bucket-name
+REDIS_HOST=your-redis-endpoint
+SQS_QUEUE_URL=your-queue-url
+```
+
+###   4. Start local development
+```bash npm start --prefix client
+npm start --prefix server
+npm start --prefix sqs
+```
+
 
 Users can:
 - Upload `.mp4` videos to an S3 bucket via a **React** web interface.  
