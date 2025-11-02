@@ -1,4 +1,10 @@
 # AWS Video Analysis Pipeline 🎥  
+![AWS](https://img.shields.io/badge/AWS-orange?logo=amazon-aws&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![SQS](https://img.shields.io/badge/AWS_SQS-FF9900?logo=amazon-aws&logoColor=white)
+
 *A scalable, cloud-based video analysis system built on AWS and Google Vision API.*
 
 ---
