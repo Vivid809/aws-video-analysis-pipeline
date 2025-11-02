@@ -106,8 +106,8 @@ Each new upload to S3 triggers an SQS message.
 <td align="center"><b>📊 Auto-Scaling Metrics (CloudWatch)</b></td>
 </tr>
 <tr>
-<td><img src="./demo-images/preview_dedup.png" width="380"></td>
-<td><img src="./demo-images/preview_scaling.png" width="380"></td>
+<td><img src="./demo-images/preview_dedup.png.png" width="380"></td>
+<td><img src="./demo-images/preview_scaling.png.png" width="380"></td>
 </tr>
 </table>
 
