@@ -99,6 +99,7 @@ Scaling was successfully triggered by running a Python script that bulk-uploaded
 
 ## 🗂️ Repository Structure
 
+```
 aws-video-analysis-pipeline/
 ├── client/ # React front-end for uploads, graphs, and search
 ├── server/ # Node.js backend (presigned S3 URLs, Redis de-dup, API)
@@ -108,6 +109,7 @@ aws-video-analysis-pipeline/
 ├── Network Diagram.png # SQS + Auto Scaling workflow diagram
 ├── .gitignore
 └── README.md
+```
 
 
 
