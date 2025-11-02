@@ -7,7 +7,7 @@ import axios from 'axios';
 import { exec } from 'child_process';
 
 
-const apiKey = "AIzaSyDIvVTx_Jrbf3utLtqiXt0zjZf_54ik1sU";
+const apiKey =  'process.env.API_KEY';
 
 class VideoAnalyser
 {
